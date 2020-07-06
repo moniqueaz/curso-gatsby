@@ -6,7 +6,7 @@ import Search from "../components/Search"
 
 const SearchPage = () => (
   <Layout>
-    <Seo title="Search" />
+    <Seo title="Search" description="Pagina de busca do blog" />
     <Search />
   </Layout>
 )

@@ -19,7 +19,7 @@ const BlogList = props => {
 
   return (
     <Layout>
-      <Seo title="Home" />
+      <Seo title="Home" description="Home page do blog" />
       <S.ListWrapper>
         {postList.map(
           (
